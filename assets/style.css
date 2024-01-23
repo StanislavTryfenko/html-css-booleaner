@@ -46,6 +46,7 @@ table{
 thead {
     background-color: rgb(0, 153, 255);
     color: white;   
+    text-align: left;
 }
 
 .th_celeste{
@@ -63,5 +64,24 @@ thead {
 }
 
 td {
-    padding: 0px;
+    padding-right: 4rem;
+}
+
+.redirect{
+    width: 312px;
+    height: 208px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.img_monitor{
+    background-image: url(../assets/img/monitor.jpg);
+    background-repeat: no-repeat;
+}
+
+.img_graph{
+    background-image: url(../assets/img/graph.jpg);
+    background-repeat: no-repeat;
 }
